@@ -1,0 +1,19 @@
+{
+  "mode": "spsc",
+  "subscribers": 16,
+  "offered_rate": 150000,
+  "publish_seconds": 1.00001,
+  "clock_ticks": 100,
+  "threads": {
+    "7": {
+      "cpu_seconds": 0.47,
+      "voluntary_ctxt_switches": 16442,
+      "nonvoluntary_ctxt_switches": 792
+    },
+    "8": {
+      "cpu_seconds": 0.88,
+      "voluntary_ctxt_switches": 323,
+      "nonvoluntary_ctxt_switches": 2200
+    }
+  }
+}

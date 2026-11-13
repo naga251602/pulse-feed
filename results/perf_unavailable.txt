@@ -1,0 +1,1 @@
+Linux perf was unavailable on this host.

@@ -1,0 +1,19 @@
+{
+  "mode": "mutex",
+  "subscribers": 16,
+  "offered_rate": 150000,
+  "publish_seconds": 0.999999,
+  "clock_ticks": 100,
+  "threads": {
+    "26": {
+      "cpu_seconds": 0.37,
+      "voluntary_ctxt_switches": 16007,
+      "nonvoluntary_ctxt_switches": 460
+    },
+    "27": {
+      "cpu_seconds": 0.75,
+      "voluntary_ctxt_switches": 234,
+      "nonvoluntary_ctxt_switches": 1415
+    }
+  }
+}

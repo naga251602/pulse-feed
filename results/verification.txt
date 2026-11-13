@@ -1,0 +1,5 @@
+Release CMake build and CTest passed with GCC 14.2.0.
+Both queue modes passed the codec, concurrent queue, and relay integration tests.
+AddressSanitizer and UndefinedBehaviorSanitizer passed the queue and relay tests with leak detection disabled because LeakSanitizer could not run in the host environment.
+ThreadSanitizer passed the concurrent queue and relay integration tests.
+The sanitizer runs used GCC with -O1 -g -fno-omit-frame-pointer -no-pie.

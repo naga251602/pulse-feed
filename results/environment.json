@@ -1,0 +1,30 @@
+{
+  "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "kernel": "6.18.57",
+  "transport": "TCP IPv4 loopback",
+  "affinity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "relay_socket_buffer_request": 16384,
+  "rates": [
+    5000,
+    60000,
+    150000
+  ],
+  "seconds": 1,
+  "repeat": 3,
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "build_flags": "-O3 -DNDEBUG -Wall -Wextra -Wpedantic -std=c++20",
+  "queue_frames": 4096,
+  "pending_frames": 4096,
+  "publisher_send_buffer_request": 16384,
+  "slow_subscriber_receive_buffer_request": 1024
+}
